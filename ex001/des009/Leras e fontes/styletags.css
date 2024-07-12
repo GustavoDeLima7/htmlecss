@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background-color: #bf2004;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #F2E0C9;
+    background-color: rgba(15, 15, 16, 0.775);
+    text-align: center;
+}
+
+h2#Basico {
+    color: rgba(17, 234, 147, 0.964);
+}
+
+.Loremc {
+    color: gray;
+}
+
