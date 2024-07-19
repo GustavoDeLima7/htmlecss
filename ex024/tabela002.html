@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif; 
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td{
+            border: 1px solid black;
+        }
+
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead,tfoot{
+            background-color: grey;
+            color: white;
+        }
+
+        thead > tr > th{
+            position: sticky
+            top0;
+            background-color:#383838
+    
+        }
+        td.num{
+            text-align: right;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+
+        }
+
+        tbody>tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabelas grandes</h1>
+    <table>
+        <thead>
+           <tr>
+               <th scope="col">Estado</th>
+               <th scope="col" style="width: 100px;">Populaçao</th>
+               <th  scope="col" style="width: 100px;">Sigla</th>
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sao paulo</td>
+                <td class="num">44 411 238</td>
+                <td>Sp</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">21  168 791</td>
+                <td>Mg</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">17 264 943</td>
+                <td>Rj</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 141 626</td>
+                <td>Ba</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="num">11 444 380</td>
+                <td>Pr</td>
+            </tr>
+            <tr>
+                <td>Rio grande do Sul</td>
+                <td class="num">10 882 965</td>
+                <td>Rs</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 058 931</td>
+                <td>Pe</td>
+            </tr>
+            <tr>
+                <td>Ceara</td>
+                <td class="num">8 794 957</td>
+                <td>Ce</td>
+            </tr>
+            <tr>
+                <td>Para</td>
+                <td class="num">8 121 025</td>
+                <td>Pa</td>
+            </tr>
+            <tr>
+                <td>Santa catarina</td>
+                <td class="num">7 610 361</td>
+                <td>Sc</td>
+            </tr>
+            <tr>
+                <td>Goias</td>
+                <td class="num">7 056 495</td>
+                <td>Go</td>
+            </tr>
+            <tr>
+                <td>Maranhao</td>
+                <td class="num">6 775 805</td>
+                <td>Ma</td>
+            </tr>
+            <tr>
+                <td>Paraiba</td>
+                <td class="num">3 974 687</td>
+                <td>Pb</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">3 974 687</td>
+                <td>Am</td>
+            </tr>
+            <tr>
+                <td>Espirito santo</td>
+                <td class="num">3 833 712</td>
+                <td>Es</td>
+            </tr>
+            <tr>
+                <td>Mato grosso</td>
+                <td class="num">3 658 649</td>
+                <td>Mt</td>
+            </tr>
+            <tr>
+                <td>Rio grande do norte</td>
+                <td class="num">3 302  729</td>
+                <td>Rn</td>
+            </tr>
+            <tr>
+                <td>Piaui</td>
+                <td class="num">3 271 199</td>
+                <td>Pi</td>
+            </tr>
+            <tr>
+                 <td>Alagoas</td>
+                 <td class="num">3 127  683</td>
+                 <td>Al</td>
+            </tr>
+            <tr>
+                <td>Distrito federal</td>
+                <td class="num">2 817 381</td>
+                <td>Df</td>
+            </tr>
+            <tr>
+                <td>Mato grosso do sul</td>
+                <td class="num">2 757 013</td>
+                <td>Ms</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2 209 558</td>
+                <td>Se</td>
+            </tr>
+            <tr>
+                <td>Rondonia</td>
+                <td class="num">1 581 196</td>
+                <td>Ro</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">1 511 460</td>
+                <td>To</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">830 018</td>
+                <td>Ac</td>
+            </tr>
+            <tr>
+                <td>Amapa</td>
+                <td class="num">733 759</td>
+                <td>Ap</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">636 707</td>
+                <td>Rr</td>
+            </tr>
+        </tbody>
+        <tfoot>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>203 062 512</strong></td>
+                <th>Todas a Siglas</th>
+         </tfoot>
+         <caption>Populaçao das unidades federativas</caption>
+        
+    </table>
+    
+    
+</body>
+</html>
