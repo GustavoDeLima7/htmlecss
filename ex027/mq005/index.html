@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="burguer"class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opçao 1</a></li>
+                <li><a href="#">Opçao 2</a></li>
+                <li><a href="#">Opçao 3</a></li>
+                <li><a href="#">Opçao 4</a></li>
+            </ul>
+        </menu>
+
+    </header>
+    <main>
+        <article>
+            <h2>Testando media queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nihil aliquid odit cumque error! Obcaecati modi magni, nulla quasi blanditiis neque, asperiores beatae repellat nostrum necessitatibus molestias quia culpa! Totam!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellat nobis eveniet dignissimos illo porro quibusdam deserunt non expedita nihil, iusto praesentium debitis. Deleniti voluptas aliquid impedit rerum beatae tempora?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellat nobis eveniet dignissimos illo porro quibusdam deserunt non expedita nihil, iusto praesentium debitis. Deleniti voluptas aliquid impedit rerum beatae tempora?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellat nobis eveniet dignissimos illo porro quibusdam deserunt non expedita nihil, iusto praesentium debitis. Deleniti voluptas aliquid impedit rerum beatae tempora?</p>
+
+     
+
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if(itens.style.display == "block") {
+                itens.style.display ="none"
+            } else {
+                itens.style.display = "block"
+            }
+            
+        }
+    </script>
+</body>
+</html>
