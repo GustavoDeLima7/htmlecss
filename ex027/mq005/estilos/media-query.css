@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*Todas demais medias/*
+
+/*Typical devices Breackpoints
+Celular: de 320px a 480px
+Tablets,ipads:de 481px a 768px
+Laptops: de 769px a 1024px
+Pc: de 1025 a 1200px
+Tv:1201px pra frente
+*/
+
+@media screen and (min-width: 768px) {
+    span#burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+    menu> ul> li{
+        display: inline-block;
+    }
+
+}
