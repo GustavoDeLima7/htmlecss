@@ -23,4 +23,8 @@ Tv:1201px pra frente
         display: inline-block;
     }
 
+    main{
+        width: 768px;
+    }
+
 }
